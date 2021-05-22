@@ -1,6 +1,6 @@
 {
   "name": "xlsxon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple parser from XLSX to json",
   "author": "DaveHellsmith <dave.demirkhanyan@gmail.com>",
   "license": "MIT",

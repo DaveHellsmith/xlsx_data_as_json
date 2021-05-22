@@ -11,12 +11,12 @@ module.exports = {
 
     return jsonFactory.getData(workbook, headers)
   },
-  parse: (binaryString, headers) => {
+  parse: (arrayBuffer, headers) => {
     const jsonFactory = new JsonFactory()
 
     const reader = new WorkbookReader()
 
-    const workbook = reader.parseWorkbookFromArrayBuffer(binaryString)
+    const workbook = reader.parseWorkbookFromArrayBuffer(arrayBuffer)
 
     return jsonFactory.getData(workbook, headers)
   }
