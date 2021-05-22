@@ -1,4 +1,4 @@
-# xlsxon
+# xlsxon [![npm version](https://img.shields.io/npm/v/xlsxon)](https://www.npmjs.com/package/xlsxon)
 
 Fork of [xlsx_data_as_json](https://github.com/lujoamel4/xlsx_data_as_json)
 
